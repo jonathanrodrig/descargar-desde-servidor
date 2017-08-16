@@ -1,0 +1,224 @@
+.origenTitulo{
+	color:white;
+	text-align:center;
+}
+.origenTexto{
+	color:white;
+	text-align:center;
+	overflow: hidden;
+	font-size: 40px;
+	font-weight: bold;
+	padding:10px 5px 10px 5px;
+	background: rgba(0,0,0,0.3);
+	margin-top:95px;
+	
+}
+
+.section-padding p{
+	text-align: center;
+    position: relative;
+    border: 1px solid #ffffff;
+} 
+
+#testimonial{
+/*
+    background: url('../img/servicios/gente.jpg') no-repeat;
+*/
+    background: url('../img/nosotros/gente.jpg') no-repeat;
+    background-size: cover;
+    min-height: 390px;
+    margin-top:-10px;
+}
+.bg-testicolor{
+    background-color: RGBA(73, 84, 105, 0.6);
+    min-height: 390px;
+}
+.white{
+    color: #fff !important;
+}
+
+
+/********************
+******our team*******
+********************/
+#our-team {
+	padding-top:30px;
+	padding-bottom:30px;
+	background:#ffffff;
+
+}
+#our-team h2 {
+	color:#000000;
+	font-size: 29px;
+	text-align: center;
+}
+#our-team h3 {
+	color:#0BA9F9;
+	font-size: 25px;
+	text-align: center;
+}
+#our-team h5 {
+	color:#000000;
+	font-size: 30px;
+	text-align: center;
+}
+#our-team h4 {
+	color:#0BA9F9;
+	font-size: 20px;
+	text-align: center;
+}
+#our-team p {	
+  font-size: 17px;
+  color: black;
+  word-wrap: break-word;
+  text-align: center;
+ 
+}
+
+p#descripcion{	
+	text-align: center;
+  font-size: 22px;
+  color: black;
+ 
+}
+
+#our-team .text-center {
+	padding-top:20px;
+	margin-bottom:30px;
+	padding-bottom:10px;
+	text-align:center;
+}
+
+#our-team .team img {
+	border-radius:8px;
+	
+}
+
+#somos {
+  background-color: white;
+  padding: 30px 0 40px 0;
+  margin-top:-10px;
+  
+  
+}
+#somos h1 {
+	font-size: 20px;
+	color: black;
+}
+
+#somos p {
+	text-align: justify;
+    font-size: 15px;
+    color: black;
+  }
+  
+  #somos .somos-container {
+  background: url(../img/about-img.jpg) left top no-repeat;
+}
+
+
+a:active, a:hover{
+	text-decoration: none;
+	color:inherit;
+}
+
+h3, h2 {
+	font-weight: 700;
+	color: black;
+	font-size: 20px;
+	text-align: justify;
+}
+
+article#content figure.img-right{
+	padding: 0;
+	float: right;
+	margin: 2em 0 2em 1em;
+	background: white;
+	text-align: center;
+	border-radius: 0;
+	font-size: 15px;
+	text-align: justify;
+	width:260px;
+}
+
+article#content figure.img-left{
+	padding: 0;
+	float: left;
+	margin: 1em 2em 1em 0;
+	background: white;
+	text-align: center;
+	border-radius: 0;
+	font-size: 15px;
+	text-align: justify;
+  	width:260px;
+}
+
+/*****
+Datos
+*****/
+.datos-info h2{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    color: #002f2f;
+    text-align:center;
+}
+.textoNosotros{
+	text-align: center;
+	color: black;
+}
+
+.datos-img{
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.datos-img img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.datos-img img {
+    width: 100%;
+    opacity: 0.8;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+#content .section-title {
+  font-size: 40px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+.section-title {
+  font-size: 40px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+.section-title-divider {
+  width: 50px;
+  height: 3px;
+  background: #00abf0;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.fotos{
+	padding: 0;
+	text-align: center;
+  	width:200px;
+	
+	
+}
