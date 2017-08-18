@@ -42,7 +42,7 @@
 	<br>
 
 	<jsp:include page="/footer.html" />
-	<jsp:include page="/jsNEhtml" />
+	<jsp:include page="/jsNE.html" />
 
 </body>
 </html>
