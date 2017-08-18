@@ -191,7 +191,7 @@ seccion Acerca de CIDESA
 			<h3 class="section-title">Acerca de Nosotros</h3>
 			<div class="section-title-divider"></div>
 			<p class="section-description">Somos Expertos en Soluciones
-				Informáticas, Fabricación de Software y Trasformación Empresarial
+				Informáticas, Fabricación de Software y Transformación Empresarial
 				para Entes Gubernamentales y No Gubernamentales</p>
 		</div>
 

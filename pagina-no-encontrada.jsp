@@ -5,12 +5,12 @@
 <head>
 
 <title>Error 404</title>
-<jsp:include page="cssIndex.html" />
+<jsp:include page="/cssNE.html" />
 <link rel="stylesheet" type="text/css" href="/css/contactos.css">
 
 </head>
 <body>
-	<jsp:include page="encabezadoIndex.html" />
+	<jsp:include page="/encabezadoNE.html" />
 
 	<section id="contact" class="section-padding"
 		style="margin-top: -20px;">
@@ -26,8 +26,7 @@
 					con nosotros por medio de nuestros correos que aparecen la zona de
 					abajo.</p>
 				<p class="sub-title">También puede dirigirse al apartado de contacto para comunicarse con nosotros. <a href='contactos.jsp'><img
-					alt='Contactos'
-					src='img/iconos para Barra/Contacto.png'
+					src="/img/iconos para Barra/Contacto.png"
 					style='width: 25px;'>&nbsp;CLICKEE AQUÍ PARA IR A CONTACTOS</a></p>
 
 				o 
@@ -42,8 +41,8 @@
 
 	<br>
 
-	<jsp:include page="footer.html" />
-	<jsp:include page="jsIndex.html" />
+	<jsp:include page="/footer.html" />
+	<jsp:include page="/jsNEhtml" />
 
 </body>
 </html>

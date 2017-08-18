@@ -88,7 +88,7 @@
 								<i class="fa fa-first-order" aria-hidden="true"></i>
 								Definiciones Generales
 							</dt>
-							<dd class="dd2">Por medio de este módulo de describen los
+							<dd class="dd2">Por medio de este módulo se describen los
 								registros comunes al sistema, cuyos datos provienen de otras
 								fuentes; Ejemplo: Catálogos Contables y Tablas de Conceptos en
 								Nómina.</dd>

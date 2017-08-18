@@ -20,11 +20,11 @@
         String nombre = request.getParameter("name");
         String correo = request.getParameter("email");
         String asunto = "Envio de correo desde la página";
-        
-        String mensaje = "Nombre: "+nombre+ ",  Correo: "+correo;
+        String contenidoMensaje= request.getParameter("message");
+        String mensaje = "Nombre: "+nombre+ ",  Correo: "+correo+ "\n\nMensaje: "+contenidoMensaje;
         
         boolean enviado = false;
-        if(nombre!=null && correo!=null )
+        if(nombre!=null && correo!=null && contenidoMensaje!=null)
         try{
         
             String host = "smtp.gmail.com";

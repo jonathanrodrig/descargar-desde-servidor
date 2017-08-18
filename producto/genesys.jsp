@@ -25,8 +25,8 @@
 					<div class="wow fadeInLeft">
 						<h1>GENESYS</h1>
 						<br> <br>
-						<p>Sistema Integrado de Gestión Administativa, Financiera,
-							Talento Humano y Crédito Público para Empresas Privadas</p>
+						<p>Sistema Integrado de Gestión Administativa, Financiera y
+							Talento Humano para Empresas Privadas</p>
 					</div>
 				</div>
 				<div class="col-md-5 col-sm-5 col-xs-12">
@@ -57,7 +57,7 @@
 								src="../img/LogoDeSistemas/GENESYS.png">
 						</figure>
 						<p>GENESYS es un Servicio de Procesos Informáticos para la Planificación de los Recursos Empresariales 
-						de las Instituciones No gubernamentales (ERPING), desarrollado en tecnología libre, estándares abiertos y 
+						de las Instituciones No gubernamentales (ERPNG), desarrollado en tecnología libre, estándares abiertos y 
 						también esta desarrollada en arquitectura de código propietario , capaz de generar información administrativa,
 						 financiera y talento humano, con el fin de consolidar las operaciones de contabilidad, ingresos y egresos, 
 						 tesorería, activos, colocaciones, contrataciones, almacén, producción, facturación y talento humano. Asimismo, 

@@ -56,7 +56,7 @@
 							<img class="img-responsive wow flip"
 								src="../img/LogoDeSistemas/DUPLO.png">
 						</figure>
-						<p>DUPLO, es una herramienta informática que registrar los datos inmersos en el proceso de contratación 
+						<p>DUPLO, es una herramienta informática que registra los datos inmersos en el proceso de contratación 
 						de obras públicas, sujetos a la Ley de Contrataciones. Integra los procedimientos de adquisición de bienes y 
 						servicios con el fin de seleccionar proveedores o participantes, ofertas, condiciones particulares de cada proceso,
 						 lapsos establecidos por ley, pliego de condiciones, ubicación física del ente contratante, personal

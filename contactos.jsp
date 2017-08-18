@@ -7,7 +7,8 @@
 <title>Contactos</title>
 <jsp:include page="cssIndex.html" />
 <meta name="title" content="Contactos - CIDESA" />
-<meta name="description" content="Contactenos por correo electrónico ó mandenos el suyo y le responderemos.">
+<meta name="description"
+	content="Contactenos por correo electrónico ó mandenos el suyo y le responderemos.">
 <link rel="stylesheet" type="text/css" href="css/contactos.css">
 
 </head>
@@ -20,8 +21,8 @@
 
 			<div class="text-center white wow fadeInDown">
 				<h2 class="service-title">ÚNETE</h2>
-				<p class="sub-title">Envíanos Tu Nombre y Correo Electrónico para Mantenerte
-					Informado Sobre Nuestras Actualizaciones</p>
+				<p class="sub-title">Envíanos Tu Nombre y Correo Electrónico
+					para Mantenerte Informado Sobre Nuestras Actualizaciones</p>
 				<hr class="bottom-line white-bg">
 			</div>
 			<br>
@@ -31,43 +32,58 @@
 						<br>
 						<p>CONTÁCTANOS</p>
 						<ul>
-							<li><i class="fa fa-map-pin"></i>  Urb. Del Este. Carrera 3 entre Calles 2 y 3. Barquisimeto, Estado Lara - Venezuela</li>
-							<li><i class="fa fa-phone"></i>Teléfonos (Venezuela +58) : (0251)-2549114 / 2547308</li>
-							<li><i class="fa fa-envelope"></i> E-mail : mercadeo@cidesa.com.ve, negocio@cidesa.com.ve, soporte@cidesa.com.ve </li>
+							<li><i class="fa fa-map-pin"></i> Urb. Del Este. Carrera 3
+								entre Calles 2 y 3. Barquisimeto, Estado Lara - Venezuela</li>
+							<li><i class="fa fa-phone"></i>Teléfonos (Venezuela +58) :
+								(0251)-2549114 / 2547308</li>
+							<li><i class="fa fa-envelope"></i> E-mail :
+								mercadeo@cidesa.com.ve, negocio@cidesa.com.ve,
+								soporte@cidesa.com.ve</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight fondo-color">
 					<div id="form">
-					<div class="contact-form">
-						<div id="sendmessage">Se envió con éxito!. ¡¡ Gracias !!</div>
-						<div id="errormessage"></div>
-						<form action="envio.jsp" method="post" role="form"
-							class="contactForm">
-							<div class="col-md-12 padding-right-zero">
-								<div class="form-group input-group">
-									<span class="input-group-addon"><i class="fa fa-user fa"
-										aria-hidden="true"></i></span> <input type="text" name="name"
-										class="form-control" id="name" placeholder="NOMBRE"
-										pattern=".{3,}" required title="Se requiere un minimo de 3 caracteres por nombre" maxlength="30" />
-									<div class="validation"></div>
+						<div class="contact-form">
+							<div id="sendmessage">Se envió con éxito!. ¡¡ Gracias !!</div>
+							<div id="errormessage"></div>
+							<form action="envio.jsp" method="post" role="form"
+								class="contactForm">
+								<div class="col-md-12 padding-right-zero">
+									<div class="form-group input-group">
+										<span class="input-group-addon"><i
+											class="fa fa-user fa" aria-hidden="true"></i></span> <input
+											type="text" name="name" class="form-control" id="name"
+											placeholder="NOMBRE" pattern=".{3,}" required
+											title="Se requiere un minimo de 3 caracteres por nombre"
+											maxlength="30" />
+										<div class="validation"></div>
+									</div>
 								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="form-group input-group">
-									<span class="input-group-addon"><i
-										class="fa fa-envelope fa" aria-hidden="true"></i></span> <input
-										type="email" class="form-control" name="email" id="email"
-										placeholder="CORREO" required data-rule="email"
-										data-msg="Por favor un Ingrese Correo Valido" />
-									<div class="validation"></div>
+								<div class="col-md-12">
+									<div class="form-group input-group">
+										<span class="input-group-addon"><i
+											class="fa fa-envelope fa" aria-hidden="true"></i></span> <input
+											type="email" class="form-control" name="email" id="email"
+											placeholder="CORREO" required data-rule="email"
+											data-msg="Por favor un Ingrese Correo Valido" />
+										<div class="validation"></div>
+									</div>
 								</div>
-							</div>
-							<div class="col-md-12">
-								<button type="submit" class="btn btn-primary btn-submit">ENVIAR</button>
-							</div>
-						</form>
-					</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<textarea class="form-control" name="message" id="message" rows="5"
+											data-rule="required" required data-msg="Por favor un Ingrese un mensaje"
+											title="Por favor un Ingrese un mensaje"
+											placeholder="MENSAJE" maxlength="1000"></textarea>
+										<div class="validation"></div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<button type="submit" class="btn btn-primary btn-submit">ENVIAR</button>
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
