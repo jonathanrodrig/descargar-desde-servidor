@@ -13,7 +13,7 @@
 <body>
 	<jsp:include page="encabezadoIndex.html" />
 	<%
-            
+	request.setCharacterEncoding("UTF-8");            
         String de="paginawebcidesa@gmail.com";
         String clave = "ssvzuhekuyhsygpi";
         String para = "mercadeo@cidesa.com.ve";
