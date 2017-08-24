@@ -386,22 +386,6 @@ Responsive media queries
 		font-size: 35px;
 	}
 	
-}
-
-@media screen and (max-width: 1366px){
-	.carousel-caption h2 {
-		font-size:55px;	
-	}
-	.carousel-caption h2 span{
-		font-size:55px;	
-	}
-	.carousel-caption p{
-		font-size:30px;
-		/*font-weight: bold;*/
-	}
-	.carousel-inner button{
-		font-size: 30px;
-	}
 	
 }
 
@@ -419,7 +403,25 @@ Responsive media queries
 	.carousel-inner button{
 		font-size: 30px;
 	}
-	
+}
+
+@media screen and (max-width: 1366px){
+	.carousel-caption h2 {
+		font-size:55px;	
+	}
+	.carousel-caption h2 span{
+		font-size:55px;	
+	}
+	.carousel-caption p{
+		font-size:30px;
+		/*font-weight: bold;*/
+	}
+	.carousel-inner button{
+		font-size: 30px;
+	}
+	#carousel-text{
+        height:400px;
+        }
 }
 
 @media screen and (max-width: 1024px){
@@ -436,7 +438,9 @@ Responsive media queries
 	.carousel-inner button{
 		font-size: 25px;
 	}
-	
+	#carousel-text{
+	height:490px;
+	}
 }
 @media screen and (max-width: 800px){
 	.carousel-caption h2{
@@ -452,7 +456,9 @@ Responsive media queries
 	.carousel-inner button{
 		font-size: 25px;
 	}
-	
+	#carousel-text{
+	height:480px;
+	}
 }
 @media screen and (max-width: 768px){
 	.carousel-caption h2{
@@ -469,6 +475,9 @@ Responsive media queries
 	}
 	.carousel-inner button{
 		font-size: 20px;
+	}
+	#carousel-text{
+	height:480px;
 	}
 }
 @media screen and (max-width: 640px){
@@ -488,6 +497,9 @@ Responsive media queries
 	.carousel-inner ul{
 		font-size: 18px;
 	}
+	#carousel-text{
+	height:250px;
+	}
 }
 @media screen and (max-width: 600px){
 	.carousel-caption h2{
@@ -505,6 +517,9 @@ Responsive media queries
 	}
 	.carousel-inner ul{
 		display:none;
+	}
+	#carousel-text{
+	height:260px;
 	}
 }
 @media screen and (max-width: 414px){
@@ -528,6 +543,9 @@ Responsive media queries
 		font-size: 10px;
 		padding:5px;
 	}
+	#carousel-text{
+	height:320px;
+	}
 }
 @media screen and (max-width: 412px){
 	.carousel-caption  h2 {
@@ -546,8 +564,10 @@ Responsive media queries
 	.carousel-inner button{
 		font-size: 10px;
 	}
+	#carousel-text{
+	height:320px;
+	}
 }
-
 @media screen and (max-width: 384px){
 	.carousel-caption h2{
 	font-size:18px;
@@ -568,6 +588,9 @@ Responsive media queries
 	.carousel-inner button{
 		font-size: 10px;
 		padding:5px;
+	}
+	#carousel-text{
+	height:350px;
 	}
 }
 
@@ -592,6 +615,9 @@ Responsive media queries
 		font-size: 10px;
 		padding:5px;
 	}
+	#carousel-text{
+	height:350px;
+	}
 }
 @media screen and (max-width: 360px){
 	.carousel-caption h2{
@@ -610,6 +636,9 @@ Responsive media queries
 	.carousel-inner ul{
 		display:none;
 	}
+	#carousel-text{
+	height:350px;
+	}
 }
 @media screen and (max-width: 320px){
 	.carousel-caption  h2 {
@@ -627,5 +656,8 @@ Responsive media queries
 	}
 	.carousel-inner ul{
 		display:none;
+	}
+	#carousel-text{
+	height:400px;
 	}
 }
